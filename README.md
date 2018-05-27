@@ -3,7 +3,7 @@ This is a practice project by Python, which is a Tetris game.
 
 Library plan, it might use: 
 - PyGame
-- Pyglet
+- Pyglet  ---------------use it! 
 - PyOpenGL
 - others
 

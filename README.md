@@ -1,5 +1,6 @@
 # Tetris
 This is a practice project by Python, which is a Tetris game. 
+This project is belonging to category: self-training/application. 
 
 Library plan, it might use: 
 - PyGame

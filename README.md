@@ -7,34 +7,35 @@ Library plan, it might use:
 - PyOpenGL
 - others
 
-Framework design: 
+Framework design
 1. main
 2. openGL init: figure generator, GUI callback (mouse reponse)
 3. control and keyboard/mouse responsor
-...
-a. figure generator
-b. GUI callback (mouse reponse)
-c. keyboard reponse
-d. main state (in game, beginning, end of one game, suspend etc. )
-e. game state (current game)
-f*. game hardness
+etc. 
+
+Framework design new
+1. figure generator
+2. GUI callback (mouse reponse)
+3. keyboard reponse
+4. main state (in game, beginning, end of one game, suspend etc. )
+5. game state (current game)
+6*. game hardness
 
 Class design: 
-GameMain class:{
+GameMain class:
 - figure object (OpenGL)
 - Tetris object (not detect input, all by service function)
 - main state
 - service function: check keyboard, mouse callback
-}
-Tetris class:{
+
+Tetris class:
 - game state (map, current)
 - hardness and algorithm
 - API for change game state
 - API for return game figure
-}
-Figure class:{
+
+Figure class:
 - API for showing a figure
 - API for returning the GUI callback
-}
 
 updated by 05/26/2018, higsyuhing

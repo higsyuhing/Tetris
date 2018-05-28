@@ -1,0 +1,10 @@
+2018.05.26
+pyglet documentation: 
+https://pyglet.readthedocs.io/en/pyglet-1.3-maintenance/
+
+2018.05.27
+looks like self creating file cannot work, only copy from the example can do it....
+strange.... 
+No... it disappear...wtf
+
+

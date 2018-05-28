@@ -1,8 +1,0 @@
-pyglet documentation: 
-https://pyglet.readthedocs.io/en/pyglet-1.3-maintenance/
-
-
-
-
-
-
